@@ -2,11 +2,46 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Tabbed browsing</title>
 	<link rel="stylesheet" href="calc.css">
+	<link rel="stylesheet" href="tabs.css">
+	<link href='http://fonts.googleapis.com/css?family=Stalemate' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	
 </head>
 <body>
-	<div id="calculator" >
+	<nav class="top">
+		<ul>
+			<li><a href="#about">About</a></li>
+ 			<li><a href="#calc">Calculator</a></li>
+		</ul>
+	</nav>
+	
+	<div class="inspiration" style="padding-top:12em;">
+	
+		<h1 class="big">OLA!</h1>
+		<h1>I'm <i>J.M. SOORYA NARAYAN</i><br> and here's something I've been working on</h1>
+		
+	</div>
+	<nav class="menu">
+		<ul>
+			<li><a href="#top">Home</a></li>
+ 			<li><a href="#about">About</a></li>
+ 			<li><a href="#calc">Calculator</a></li>
+		</ul>
+	</nav>
+	<div class="content" id="about">
+
+  		<div style="padding-top:1em;">
+  		<img style="width:40%;"src="images/abt.png"/>
+  		<img title="Only decent image of myself I could find" src="images/me.png"/>
+    		<p><br><br><br><br><br><br></p>
+  		</div>
+  	</div><div class="content" id="calc" style="padding-bottom:4em;">
+  		<img style="width:40%;"src="images/cal.png"/>
+  		<br>
+  	<div class="filler"></div>
+  	<div id="calculator">
 	<!-- Screen -->
 	<div class="screen">
 		<div class="expression"></div>
@@ -38,7 +73,12 @@
 		
 	</div>
 	<div class="edge"></div>
+
 	</div>
 	<script language="javascript" src="calc.js"></script>
+	<script type="text/javascript" src="jquery-1.11.3.js"></script>
+  	</div>
+  	<script language="javascript" src="tabs.js"></script> 		
 </body>
 </html>
+	
