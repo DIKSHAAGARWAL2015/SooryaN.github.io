@@ -48,7 +48,7 @@ body {
 
 .menu li a {
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: #fff;
 	font-weight: 700;
 	display: inline-block;
@@ -61,7 +61,7 @@ body {
 .menu li a.selected {
 	color: #212143;
 	display: inline; 
-	font-size:1.9em; 
+	font-size:1.5em; 
 }
 
 .inspiration{
@@ -72,8 +72,9 @@ body {
 	text-align:center;
 	color:white;
 	font-family: 'Indie Flower', cursive;
-	font-size:2em;
+	font-size:200%;
 	text-shadow:2px 1px 1px rgba(0,0,0,.7);
+	padding-bottom:10em;
 }
 .big{
 	font-size:4em;
@@ -117,7 +118,7 @@ h1{
 
 .top li a {
 	text-decoration: none;
-	font-size: 1.7em;
+	font-size: 1.5em;
 	color: #fff;
 	font-weight: 600;
 	display: inline-block;
@@ -131,7 +132,7 @@ h1{
 .top li a.selected {
 	color: #F0DF99;
 	display: inline;
-	font-size:2em; 
+	font-size:1.7em; 
 }
 
 
@@ -148,8 +149,8 @@ padding:0;
 }
 .filler{
 	float:left;
-	width:25%;
-	height:20px
+	width:10%;
+	height:20px;
 }
 img{
 	width:100%;
@@ -160,3 +161,20 @@ img{
 
 	font-weight:700;
 }
+.content {
+	font-family: 'Indie Flower', cursive;
+	font-size:2em;
+}
+.conntent p{
+	padding-right:2em;
+	padding-left:2em;
+}
+.content a{
+	text-decoration: none;
+	
+}
+.content a:hover{
+	color:#51BCE7;
+}
+
+
