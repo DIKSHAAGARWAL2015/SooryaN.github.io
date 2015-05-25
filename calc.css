@@ -52,7 +52,7 @@ button{
 .keys{
     float:left;
     width:50%;
-    min-width:220px;
+    min-width:210px;
 }
 
 .edge{
