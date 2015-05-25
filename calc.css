@@ -1,1 +1,173 @@
-/* Basic reset */* {    margin: 0;    padding: 0;    box-sizing: border-box;    /* Better text styling */    font: bold 1em Arial, sans-serif;}body{    background:#232323;}.screen{    width:33%;    /*height:10em;*/    background:#FFFFFF;    overflow: hidden;    }.expression{    width:95%;    height:60%;    text-align: right;    font-family: 'Roboto', sans-serif;    font-weight: lighter;    font-size: 200%;    color: #757575;    padding-top:10%;}.result{    width:95%;    height:32%;    text-align: right;    font-family: 'Roboto', sans-serif;    font-weight: lighter;    font-size: 100%;    color: #757575;    padding-bottom:10%; }button{     width: 33.33%;  height:2.4em;  border: 0;  position: relative;  text-align: center;  font-family: 'Roboto', sans-serif;  font-weight: lighter;  font-size: 150%;  color: #FFFFFF;  background: #434343;  cursor: pointer;  overflow: hidden;  display: inline-block;  text-decoration: none;}.sidebar{    float:left;    float:top;    width:7%;    }.sidebar button{  width:100%;  height:2em;  background: #636363;  font-size: 120%;  padding: 8%;}.keys{    float:left;    width:24%;}.keys button{  padding: 4.2%;}.operator{    float:top;    }.edge{    height:14.4em;    background:#1DE9B6;    float:left;    width:2%;    overflow:hidden;        }#calculator{        overflow:hidden;    /*width:50%;    height:90%;*/    position: relative;     /*margin-left: auto;    margin-right:auto;*/  }body {    padding:0;    margin:0;    overflow: hidden;    vertical-align: }
+.screen{
+	
+    width:65%;
+	
+    /*height:10em;
+	*/
+    background:#FFFFFF;
+	
+    overflow: hidden;
+	
+    
+}
+
+
+.expression{
+	
+    width:95%;
+	
+    height:60%;
+	
+    text-align: right;
+	
+    font-family: 'Roboto', sans-serif;
+	
+    font-weight: lighter;
+	
+    font-size: 200%;
+	
+    color: #757575;
+	
+    padding-top:10%;
+
+}
+
+
+.result{
+	
+    width:95%;
+	
+    height:32%;
+	
+    text-align: right;
+	
+    font-family: 'Roboto', sans-serif;
+	
+    font-weight: lighter;
+	
+    font-size: 100%;
+	
+    color: #757575;
+	
+    padding-bottom:10%;
+	
+ 
+}
+
+
+
+button{
+	
+   
+  width: 33.33%;
+	
+  height:2.4em;
+	
+  border: 0;
+	
+  position: relative;
+	
+  text-align: center;
+	
+  font-family: 'Roboto', sans-serif;
+	
+  font-weight: lighter;
+	
+  font-size: 150%;
+	
+  color: #FFFFFF;
+	
+  background: #434343;
+	
+  cursor: pointer;
+	
+  overflow: hidden;
+	
+  display: inline-block;
+	
+  text-decoration: none;
+
+}
+
+
+.sidebar{
+	
+    float:left;
+	  width:18%;
+	 
+
+}
+
+
+.sidebar button{
+	
+  width:100%;
+	
+  height:2em;
+	
+  background: #636363;
+	
+  font-size: 120%;
+	
+}
+
+
+
+.keys{
+	
+    float:left;
+	
+    width:43%;
+
+}
+
+
+.keys button{
+	
+  padding: 4.2%;
+
+}
+
+
+
+.operator{
+	
+    float:top;
+	
+    
+}
+
+
+.edge{
+	
+    height:14.4em;
+	
+    background:#1DE9B6;
+	
+    float:left;
+	
+    width:4%;
+	
+    overflow:hidden;
+	
+    
+    
+}
+
+
+#calculator{
+	
+    
+    overflow:hidden;
+	
+    /*width:50%;
+	
+    height:90%;
+	*/
+    position: relative;
+	 
+    margin-left: auto;
+	
+    margin-right:auto;
+	  
+}
