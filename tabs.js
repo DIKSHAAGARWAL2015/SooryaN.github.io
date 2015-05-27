@@ -24,3 +24,34 @@ function stickIt() {
     $('.original').css('visibility','visible');
   }
 }
+
+$(window).resize(function() {
+
+  if ($(this).width() < 700) {
+
+    $('#scientific').hide();
+    var W=window.innerWidth;
+    document.getElementById('scrn').setAttribute("style","width:40%");
+  } else {
+
+    $('#scientific').show();
+    var W=window.innerWidth;
+    document.getElementById('scrn').setAttribute("style","width:52.5%");
+    }
+
+});
+$(document).ready(function() {
+
+  if ($(this).width() < 700) {
+
+    $('#scientific').hide();
+    var W=window.innerWidth;
+    document.getElementById('scrn').setAttribute("style","width:40%");
+  } else {
+
+    $('#scientific').show();
+    var W=window.innerWidth;
+    document.getElementById('scrn').setAttribute("style","width:52.5%");
+    }
+
+});
