@@ -9,6 +9,19 @@ var H = window.innerHeight/2; // Window's height
 var canvas = document.getElementById("calculator");
 canvas.setAttribute("style","height:"+H);
 }
+//Math Functions
+function fact(a)
+{	if(a<0)
+	{
+		document.querySelector('.result').innerHTML="x>=0 only!";
+		return;
+	}
+
+	if(a==0)
+		return 1;
+	else
+		return a*fact(a-1);
+}
 // Add onclick event to all the keys and perform operations
 for(var i = 0; i < keys.length; i++) {
 	keys[i].onclick = function(e) {
@@ -31,7 +44,35 @@ for(var i = 0; i < keys.length; i++) {
 			
 			decimalAdded = false;
 		}
-		
+		else if(btnVal=='sin'||btnVal=='cos'||btnVal=='tan'||btnVal=='x^2'||btnVal=='x^3'||btnVal=='x!'){
+			var a,b;
+			var equation = inputVal;
+			var lastChar = equation[equation.length - 1];
+			
+			// Replace all instances of x and ÷ with * and / respectively. This can be done easily using regex and the 'g' tag which will replace all instances of the matched character/substring
+			equation = equation.replace(/x/g, '*').replace(/÷/g, '/');
+			
+			// Final thing left to do is checking the last character of the equation. If it's an operator or a decimal, remove it
+			if(operators.indexOf(lastChar) > -1 || lastChar == '.')
+				equation = equation.replace(/.$/, '');
+			
+			if(equation)
+				a = eval(equation);
+			 //	a = b*2*3.1416/180;
+			if(btnVal=='sin')   
+			output.innerHTML = Math.sin(a);
+			else if (btnVal=='cos')   
+			output.innerHTML = Math.cos(a);
+			else if (btnVal=='tan')   
+			output.innerHTML = Math.tan(a);
+			else if (btnVal=='x^2')   
+			output.innerHTML = a*a;
+			else if (btnVal=='x^3')   
+			output.innerHTML = a*a*a;
+			else if (btnVal=='x!')   
+			output.innerHTML = fact(a);
+						
+		}
 		
 		// If eval key is pressed, calculate and display the result
 		else if(btnVal === '=') {
@@ -46,7 +87,7 @@ for(var i = 0; i < keys.length; i++) {
 				equation = equation.replace(/.$/, '');
 			
 			if(equation)
-				output	.innerHTML = eval(equation);
+				output.innerHTML = eval(equation);
 				
 			decimalAdded = false;
 		}
