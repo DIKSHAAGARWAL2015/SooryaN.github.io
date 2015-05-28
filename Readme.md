@@ -203,5 +203,5 @@ x!
 </div>
 
 </div>
-![Standard Lolipop Calculator](http://s1.postimg.org/co6i24o2n/Screenshot_2015_05_15_12_32_52.png=150x300)
+![Standard Lolipop Calculator](http://s1.postimg.org/co6i24o2n/Screenshot_2015_05_15_12_32_52.png=75x150)
 ![Screenshot of mine](https://github.com/SooryaN/SooryaN.github.io/blob/master/images/MyCalc.png)
