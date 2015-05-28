@@ -176,5 +176,9 @@ img{
 .content a:hover{
 	color:#51BCE7;
 }
-
-
+#info{
+	float:right;
+	width:25%;
+	margin:2% 10% 0 0;
+	font-size:110%;
+}
