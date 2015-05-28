@@ -27,14 +27,16 @@ function stickIt() {
 
 $(window).resize(function() {
 
-  if ($(this).width() < 700) {
+  if ($(this).width() < 800) {
 
     $('#scientific').hide();
+    $('#info').hide();
     var W=window.innerWidth;
     document.getElementById('scrn').setAttribute("style","width:40%");
   } else {
 
     $('#scientific').show();
+    $('#info').show();
     var W=window.innerWidth;
     document.getElementById('scrn').setAttribute("style","width:52.5%");
     }
@@ -42,14 +44,16 @@ $(window).resize(function() {
 });
 $(document).ready(function() {
 
-  if ($(this).width() < 700) {
+  if ($(this).width() < 800) {
 
     $('#scientific').hide();
+    $('#info').hide();
     var W=window.innerWidth;
     document.getElementById('scrn').setAttribute("style","width:40%");
   } else {
 
     $('#scientific').show();
+    $('#info').show();
     var W=window.innerWidth;
     document.getElementById('scrn').setAttribute("style","width:52.5%");
     }
