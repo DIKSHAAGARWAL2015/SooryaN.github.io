@@ -1,4 +1,4 @@
-#**My Page for Spider Webdev Inductions**
+#**Page for Spider Webdev Inductions**
 ---
 
 ---
