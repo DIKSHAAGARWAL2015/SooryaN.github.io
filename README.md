@@ -11,6 +11,7 @@ Hope you like it!
 ####**Title: Task1**
 -   [About](#about) 
 -   [Calculator](#calc)
+
 ---
 OLA!  
 I'm **J.M. SOORYA NARAYAN** and here's something I've been working on
@@ -65,6 +66,7 @@ x^2 x^3 sin cos tan x!
 There are two javascript files as part of the webpage:
 1. clac.js: _script responsible for the functioning of the calculator_
 2. tabs.js: _script for scrollable sticky nav and changing of calculator from normal to scientific_
+
 ---
 ___
 ##**The CSS**
